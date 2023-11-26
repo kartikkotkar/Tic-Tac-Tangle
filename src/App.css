@@ -20,6 +20,29 @@ body{
 
 .current-player-text{
   font-size: 20px;
+ 
+}
+
+.winner-text{
+  text-align: center;
+  font-size: 15px;
+  background-color: rgb(170, 181, 195);
+  border-radius: 10px;
+  width: fit-content;
+  display: block;
+  margin: 20px auto;
+  padding: 5px;
+}
+
+.reset-btn{
+  background-color:#5ea8ee;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 50px;
+  border: none;
+  padding: 10px 50px;
+  display: block;
+  margin: 20px auto;
 }
 
 .row{
