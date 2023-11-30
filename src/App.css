@@ -1,7 +1,7 @@
 
 
 body{
-  background-color: #ffdab3;
+  background-color: #5e666d;
 }
 
 .text-center{
@@ -26,7 +26,6 @@ body{
 .winner-text{
   text-align: center;
   font-size: 15px;
-  background-color: rgb(170, 181, 195);
   border-radius: 10px;
   width: fit-content;
   display: block;
@@ -35,14 +34,14 @@ body{
 }
 
 .reset-btn{
-  background-color:#5ea8ee;
-  color: #fff;
-  font-size: 20px;
-  border-radius: 50px;
+  background-color:#0a2b0a;
+  color: rgb(0, 107, 128);
+  font-size: 15px;
+  font-weight:bold;
   border: none;
-  padding: 10px 50px;
+  padding: 5px;
   display: block;
-  margin: 20px auto;
+  margin: 5px auto;
 }
 
 .row{
@@ -53,21 +52,22 @@ body{
 .board{
   display: block;
   margin: 29px auto;
-  background-color: #b3daff;
+ 
   width: fit-content;
   padding: 5px;
   border-radius: 5px;
 }
 
 .box{
-  background-color: #fff;
-  border: 1px solid #e67300;
+  background-color: #000000;
+  border: dotted 1px rgb(148, 217, 212);
   width: 70px;
   height: 60px;
   display: flex;
-  justify-content: center;
+  margin: 2px;
   align-items: center;
   font-size: 30px;
+  border-radius: 0px 20px 0px 20px;
 }
 
 .box:hover{
